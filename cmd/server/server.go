@@ -9,8 +9,8 @@ import (
 	"github.com/99designs/gqlgen/graphql/handler"
 	"github.com/99designs/gqlgen/graphql/playground"
 	_ "github.com/mattn/go-sqlite3"
-	"github.com/sandronister/go-graphql/graph"
 	"github.com/sandronister/go-graphql/internal/database"
+	"github.com/sandronister/go-graphql/internal/infra/graph"
 )
 
 const defaultPort = "8080"

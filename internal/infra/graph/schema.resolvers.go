@@ -7,7 +7,7 @@ package graph
 import (
 	"context"
 
-	"github.com/sandronister/go-graphql/graph/model"
+	"github.com/sandronister/go-graphql/internal/infra/graph/model"
 )
 
 // Courses is the resolver for the courses field.
